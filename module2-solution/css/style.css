@@ -1,1 +1,111 @@
 
+
+/***** Base Styles *****/
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align:center;
+  font-weight: bold;
+  font-size:20px;
+  font-family:chalkduster;
+}
+
+h2 {
+	text-align:center;
+	color:white;
+	font-size:17px;
+	font-family:chalkduster;
+}
+
+p {
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: calibri;
+  color: black;
+}
+
+.chicken-p {
+background:blue;
+	width:40%;
+	border:1px solid black;
+	position: relative;
+	left:60%;
+}
+.beef-p {
+background:green;
+	width:40%;
+	border:1px solid black;
+	position: relative;
+	left:60%;
+}
+.sushi-p {
+background:brown;
+	width:40%;
+	border:1px solid black;
+	position: relative;
+	left:60%;
+}
+
+/* Simple Responsive Framework. */
+.row {
+	width:100%;
+}
+
+/***** Desktop *****/
+@media (min-width:992px) {
+ .desktop {
+	float:left;
+	border:2px solid black;
+	width:30%;
+	padding:1px;
+	margin-left:1.66%;
+	margin-right: 1.66%;
+	margin-bottom:10px;
+	overflow:scroll;
+	background-color: grey;
+ }
+}
+
+/***** Tablet *****/
+@media (min-width:768px) and (max-width:991px) {
+ .tablet-1,.tablet-2 {
+ 	background-color: grey;
+	float:left;
+	border:2px solid black;
+	padding:1px;
+	overflow:scroll;
+ }
+
+ .tablet-1 {
+	width:45%;
+	margin-left: 2.5%;
+	margin-right:2.5%;
+	margin-bottom:10px;
+ }
+
+ .tablet-2 {
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+ }
+}
+
+/***** Mobile *****/
+@media (max-width:767px) {
+ .mobile {
+    background-color: grey;
+	float:left;
+	border:2px solid black;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	padding:1px;
+	margin-bottom:10px;
+	overflow:scroll;
+ }
+}
