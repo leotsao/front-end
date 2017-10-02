@@ -59,7 +59,7 @@ background:brown;
 
 /***** Desktop *****/
 @media (min-width:992px) {
- .desktop {
+ .col-md-4 {
 	float:left;
 	border:2px solid black;
 	width:30%;
@@ -74,7 +74,7 @@ background:brown;
 
 /***** Tablet *****/
 @media (min-width:768px) and (max-width:991px) {
- .tablet-1,.tablet-2 {
+ .col-sm-6,.col-sm-12 {
  	background-color: grey;
 	float:left;
 	border:2px solid black;
@@ -82,14 +82,14 @@ background:brown;
 	overflow:scroll;
  }
 
- .tablet-1 {
+ .col-sm-6 {
 	width:45%;
 	margin-left: 2.5%;
 	margin-right:2.5%;
 	margin-bottom:10px;
  }
 
- .tablet-2 {
+ .col-sm-12 {
 	width:90%;
 	margin-left:5%;
 	margin-right:5%;
@@ -98,7 +98,7 @@ background:brown;
 
 /***** Mobile *****/
 @media (max-width:767px) {
- .mobile {
+ .col-xs-12 {
     background-color: grey;
 	float:left;
 	border:2px solid black;
