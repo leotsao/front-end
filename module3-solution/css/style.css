@@ -21,6 +21,20 @@ h2 {
 	font-family:chalkduster;
 }
 
+
+#header-nav {
+	background-color:blue;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/logo.png') no-repeat;
+	width:150px;
+	height:150px;
+	margin:10px 15px 10px 0;
+}
+
 p {
   width: 90%;
   height: 150px;
