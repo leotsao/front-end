@@ -53,7 +53,7 @@ background:brown;
 }
 
 /* Simple Responsive Framework. */
-.row {
+.container-fluid {
 	width:100%;
 }
 
